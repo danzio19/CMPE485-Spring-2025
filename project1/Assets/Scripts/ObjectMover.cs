@@ -4,12 +4,12 @@ public class ObjectMover : MonoBehaviour
 {
     public float speed = 5f;
 
-    private Rigidbody rb;
+    public Rigidbody rb;
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>(); 
-    }
+    // void Start()
+    // {
+    //     rb = GetComponent<Rigidbody>(); 
+    // }
 
     void FixedUpdate()
     {

@@ -3,12 +3,12 @@ using UnityEngine;
 public class ObjectBouncer : MonoBehaviour
 {
     public float bounceForce = 1f; 
-    private Rigidbody rb;
+    public Rigidbody rb;
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>(); 
-    }
+    // void Start()
+    // {
+    //     rb = GetComponent<Rigidbody>(); 
+    // }
 
     void Update()
     {
